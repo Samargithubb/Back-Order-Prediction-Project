@@ -1,0 +1,949 @@
+2023-05-09/10:13:57		Start of the Prediction
+2023-05-09/10:13:57		Entered the get_data method of the Data_Getter class
+2023-05-09/10:13:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:13:57		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:13:57		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:13:57		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:13:57		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:13:57		Is Null Values Present :True
+2023-05-09/10:13:57		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:13:57		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:13:57		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:13:57		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'national_inv', 'lead_time', 'in_transit_qty',
+       'forecast_6_month', 'sales_1_month', 'min_bank', 'pieces_past_due',
+       'perf_6_month_avg', 'local_bo_qty'],
+      dtype='object')
+2023-05-09/10:13:57		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:13:57		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:13:58		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:13:58		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:13:58		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:13:58		Entered the load_model method of File_Operation class
+2023-05-09/10:13:58		Model File Random Forestloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:13:58		Exception occurred in load_model method of the File_Operation class Exception message:  log() missing 1 required positional argument: 'log_message'
+2023-05-09/10:13:58		Model File Random Forestcould not be saved. Exited the load_model method of the File_Operation class
+2023-05-09/10:13:58		Error occured while running the prediction!! Error:: 
+2023-05-09/10:17:44		Start of the Prediction
+2023-05-09/10:17:44		Entered the get_data method of the Data_Getter class
+2023-05-09/10:17:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:17:45		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:17:45		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:17:45		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:17:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:17:45		Is Null Values Present :True
+2023-05-09/10:17:45		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:17:45		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:17:45		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:17:45		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'national_inv', 'lead_time', 'in_transit_qty',
+       'forecast_6_month', 'sales_1_month', 'min_bank', 'pieces_past_due',
+       'perf_6_month_avg', 'local_bo_qty'],
+      dtype='object')
+2023-05-09/10:17:45		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:17:45		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:17:45		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:17:45		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:17:45		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:17:45		Entered the load_model method of File_Operation class
+2023-05-09/10:17:45		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:17:45		Exception occurred in load_model method of the File_Operation class Exception message:  log() missing 1 required positional argument: 'log_message'
+2023-05-09/10:17:45		Model File XGBoostcould not be saved. Exited the load_model method of the File_Operation class
+2023-05-09/10:17:45		Error occured while running the prediction!! Error:: 
+2023-05-09/10:25:11		Start of the Prediction
+2023-05-09/10:25:11		Entered the get_data method of the Data_Getter class
+2023-05-09/10:25:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:25:12		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:25:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:25:12		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:25:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:25:12		Is Null Values Present :True
+2023-05-09/10:25:12		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:25:12		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:25:12		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:25:12		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'national_inv', 'lead_time', 'in_transit_qty',
+       'forecast_6_month', 'sales_1_month', 'min_bank', 'pieces_past_due',
+       'perf_6_month_avg', 'local_bo_qty'],
+      dtype='object')
+2023-05-09/10:25:12		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:25:12		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:25:12		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:25:12		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:25:12		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:25:12		Entered the load_model method of File_Operation class
+2023-05-09/10:25:12		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:25:12		Error occured while running the prediction!! Error:: feature_names mismatch: ['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time', 'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month'] ['Unnamed: 0', 'national_inv', 'lead_time', 'in_transit_qty', 'forecast_6_month', 'sales_1_month', 'min_bank', 'pieces_past_due', 'perf_6_month_avg', 'local_bo_qty', 'potential_issue', 'deck_risk', 'oe_constraint', 'ppap_risk', 'rev_stop']
+expected sales_3_month, sales_6_month, forecast_3_month, sales_9_month, perf_12_month_avg, forecast_9_month in input data
+training data did not have the following fields: min_bank, rev_stop, potential_issue, in_transit_qty, pieces_past_due, national_inv, deck_risk, ppap_risk, Unnamed: 0, local_bo_qty, oe_constraint
+2023-05-09/10:27:33		Start of the Prediction
+2023-05-09/10:27:33		Entered the get_data method of the Data_Getter class
+2023-05-09/10:27:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:27:34		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:27:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:27:34		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:27:34		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:27:34		Is Null Values Present :True
+2023-05-09/10:27:34		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:27:34		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:27:34		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:27:34		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month',
+       'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month',
+       'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/10:27:34		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:27:34		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:27:34		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:27:34		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:27:34		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:27:34		Entered the load_model method of File_Operation class
+2023-05-09/10:27:34		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:27:34		Error occured while running the prediction!! Error:: feature_names mismatch: ['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time', 'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month'] ['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg']
+training data did not have the following fields: Unnamed: 0
+2023-05-09/10:29:01		Start of the Prediction
+2023-05-09/10:29:01		Entered the get_data method of the Data_Getter class
+2023-05-09/10:29:02		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:29:02		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:29:02		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:29:02		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:29:02		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:29:02		Is Null Values Present :True
+2023-05-09/10:29:02		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:29:02		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:29:02		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:29:02		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month',
+       'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month',
+       'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/10:29:02		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:29:02		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:29:02		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:29:02		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:29:02		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:29:02		Entered the load_model method of File_Operation class
+2023-05-09/10:29:02		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:29:02		Error occured while running the prediction!! Error:: feature_names mismatch: ['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time', 'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month'] ['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg']
+training data did not have the following fields: Unnamed: 0
+2023-05-09/10:32:16		Start of the Prediction
+2023-05-09/10:32:16		Entered the get_data method of the Data_Getter class
+2023-05-09/10:32:16		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:32:16		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:32:16		Exception occurred in remove_columns method of the Preprocessor class. Exception message:  "['0'] not found in axis"
+2023-05-09/10:32:16		Column removal Unsuccessful. Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:32:16		Error occured while running the prediction!! Error:: 
+2023-05-09/10:32:53		Start of the Prediction
+2023-05-09/10:32:53		Entered the get_data method of the Data_Getter class
+2023-05-09/10:32:53		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:32:53		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:32:53		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:32:53		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:32:53		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:32:53		Is Null Values Present :True
+2023-05-09/10:32:53		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:32:53		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:32:53		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:32:53		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month',
+       'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month',
+       'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/10:32:53		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:32:53		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:32:53		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:32:53		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:32:53		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:32:53		Entered the load_model method of File_Operation class
+2023-05-09/10:32:53		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:32:53		Error occured while running the prediction!! Error:: feature_names mismatch: ['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time', 'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month'] ['Unnamed: 0', 'lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg']
+training data did not have the following fields: Unnamed: 0
+2023-05-09/10:38:30		Start of the Prediction
+2023-05-09/10:38:30		Entered the get_data method of the Data_Getter class
+2023-05-09/10:38:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:38:30		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:38:30		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:38:30		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:38:30		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:38:30		Is Null Values Present :True
+2023-05-09/10:38:30		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:38:30		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:38:30		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:38:30		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/10:38:30		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:38:30		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:38:30		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:38:30		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/10:38:30		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/10:38:30		Entered the load_model method of File_Operation class
+2023-05-09/10:38:30		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/10:38:30		Error occured while running the prediction!! Error:: feature_names mismatch: ['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time', 'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month'] ['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg']
+2023-05-09/11:03:20		Start of the Prediction
+2023-05-09/11:03:20		Entered the get_data method of the Data_Getter class
+2023-05-09/11:03:20		Exception occured in get_data method of the Data_Getter class. Exception message: [Errno 2] File b'Prediction_FileFromDB/train_data.csv' does not exist: b'Prediction_FileFromDB/train_data.csv'
+2023-05-09/11:03:20		Data Load Unsuccessful. Exited the get_data method of the Data_Getter class
+2023-05-09/11:03:20		Error occured while running the prediction!! Error:: 
+2023-05-09/11:04:27		Start of the Prediction
+2023-05-09/11:04:27		Entered the get_data method of the Data_Getter class
+2023-05-09/11:04:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:04:28		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:04:28		Exception occurred in remove_columns method of the Preprocessor class. Exception message:  "['Unnamed: 0'] not found in axis"
+2023-05-09/11:04:28		Column removal Unsuccessful. Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:04:28		Error occured while running the prediction!! Error:: 
+2023-05-09/11:07:18		Start of the Prediction
+2023-05-09/11:07:18		Entered the get_data method of the Data_Getter class
+2023-05-09/11:07:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:07:18		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:07:18		Exception occurred in remove_columns method of the Preprocessor class. Exception message:  "['Unnamed: 0'] not found in axis"
+2023-05-09/11:07:18		Column removal Unsuccessful. Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:07:18		Error occured while running the prediction!! Error:: 
+2023-05-09/11:08:01		Start of the Prediction
+2023-05-09/11:08:01		Entered the get_data method of the Data_Getter class
+2023-05-09/11:08:01		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:08:01		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:08:01		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:08:01		Entered the is_null_present method of the Preprocessor class
+2023-05-09/11:08:01		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/11:08:01		Is Null Values Present :True
+2023-05-09/11:08:01		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/11:08:01		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/11:08:01		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:08:01		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/11:08:01		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:08:01		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:08:01		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:08:01		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/11:08:01		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/11:08:01		Entered the load_model method of File_Operation class
+2023-05-09/11:08:01		Model File Random Forestloaded. Exited the load_model method of the File_Operation class
+2023-05-09/11:08:01		Error occured while running the prediction!! Error:: X has 11 features, but DecisionTreeClassifier is expecting 10 features as input.
+2023-05-09/11:16:35		Start of the Prediction
+2023-05-09/11:16:35		Entered the get_data method of the Data_Getter class
+2023-05-09/11:16:35		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:16:35		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:16:35		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:16:35		Entered the is_null_present method of the Preprocessor class
+2023-05-09/11:16:35		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/11:16:35		Is Null Values Present :True
+2023-05-09/11:16:35		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/11:16:35		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/11:16:35		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:16:35		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/11:16:35		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:16:35		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:16:35		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:16:35		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/11:16:35		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/11:16:35		Entered the load_model method of File_Operation class
+2023-05-09/11:16:35		Model File Random Forestloaded. Exited the load_model method of the File_Operation class
+2023-05-09/11:16:39		Error occured while running the prediction!! Error:: 'Prediction'
+2023-05-09/11:33:04		Start of the Prediction
+2023-05-09/11:33:04		Entered the get_data method of the Data_Getter class
+2023-05-09/11:33:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:33:05		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:33:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:33:05		Entered the is_null_present method of the Preprocessor class
+2023-05-09/11:33:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/11:33:05		Is Null Values Present :True
+2023-05-09/11:33:05		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/11:33:05		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/11:33:05		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:33:05		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/11:33:05		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:33:05		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:33:05		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:33:05		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/11:33:05		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/11:33:05		Entered the load_model method of File_Operation class
+2023-05-09/11:33:05		Model File Random Forestloaded. Exited the load_model method of the File_Operation class
+2023-05-09/11:33:09		End of Prediction
+2023-05-09/12:22:04		Start of the Prediction
+2023-05-09/12:22:04		Entered the get_data method of the Data_Getter class
+2023-05-09/12:22:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:22:04		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:22:04		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:22:04		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:22:04		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:22:04		Is Null Values Present :True
+2023-05-09/12:22:04		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:22:04		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:22:04		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:22:04		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:22:04		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:22:04		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:22:04		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:22:04		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/12:22:04		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/12:22:04		Entered the load_model method of File_Operation class
+2023-05-09/12:22:04		Model File Random Forestloaded. Exited the load_model method of the File_Operation class
+2023-05-09/12:22:08		End of Prediction
+2023-05-09/13:02:39		Start of the Prediction
+2023-05-09/13:02:39		Entered the get_data method of the Data_Getter class
+2023-05-09/13:02:39		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/13:02:39		Entered the remove_columns method of the Preprocessor class
+2023-05-09/13:02:39		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/13:02:39		Entered the is_null_present method of the Preprocessor class
+2023-05-09/13:02:39		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/13:02:39		Is Null Values Present :True
+2023-05-09/13:02:39		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/13:02:39		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/13:02:39		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/13:02:39		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/13:02:39		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/13:02:39		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/13:02:39		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/13:02:39		Entered the find_correct_model_file method of the File_Operation class
+2023-05-09/13:02:39		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-09/13:02:39		Entered the load_model method of File_Operation class
+2023-05-09/13:02:39		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-09/13:02:40		End of Prediction
+2023-05-10/07:56:26		Start of the Prediction
+2023-05-10/07:56:26		Entered the get_data method of the Data_Getter class
+2023-05-10/07:56:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/07:56:26		Entered the remove_columns method of the Preprocessor class
+2023-05-10/07:56:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/07:56:26		Entered the is_null_present method of the Preprocessor class
+2023-05-10/07:56:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/07:56:26		Is Null Values Present :False
+2023-05-10/07:56:26		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/07:56:26		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'sales_1_month', 'sales_3_month', 'sales_9_month',
+       'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/07:56:26		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/07:56:26		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/07:56:26		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/07:56:26		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/07:56:26		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/07:56:26		Entered the load_model method of File_Operation class
+2023-05-10/07:56:26		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/07:56:26		Error occured while running the prediction!! Error:: feature_names mismatch: ['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'] ['Unnamed: 0', 'sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg', 'perf_12_month_avg', 'lead_time']
+expected sales_6_month in input data
+training data did not have the following fields: Unnamed: 0
+2023-05-10/07:59:56		Start of the Prediction
+2023-05-10/07:59:56		Entered the get_data method of the Data_Getter class
+2023-05-10/07:59:56		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/07:59:56		Entered the remove_columns method of the Preprocessor class
+2023-05-10/07:59:56		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/07:59:56		Entered the is_null_present method of the Preprocessor class
+2023-05-10/07:59:56		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/07:59:56		Is Null Values Present :False
+2023-05-10/07:59:56		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/07:59:56		Scale_numerical_columns name of the columns Index(['Unnamed: 0', 'sales_1_month', 'sales_3_month', 'sales_9_month',
+       'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/07:59:56		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/07:59:56		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/07:59:56		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/07:59:56		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/07:59:56		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/07:59:56		Entered the load_model method of File_Operation class
+2023-05-10/07:59:56		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/07:59:56		Error occured while running the prediction!! Error:: feature_names mismatch: ['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'] ['Unnamed: 0', 'sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg', 'perf_12_month_avg', 'lead_time']
+expected sales_6_month in input data
+training data did not have the following fields: Unnamed: 0
+2023-05-10/08:01:05		Start of the Prediction
+2023-05-10/08:01:05		Entered the get_data method of the Data_Getter class
+2023-05-10/08:01:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:01:05		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:01:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:01:05		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:01:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:01:05		Is Null Values Present :False
+2023-05-10/08:01:05		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:01:05		Scale_numerical_columns name of the columns Index(['sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month',
+       'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg',
+       'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/08:01:05		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:01:05		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:01:05		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:01:05		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/08:01:05		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/08:01:05		Entered the load_model method of File_Operation class
+2023-05-10/08:01:05		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/08:01:05		Error occured while running the prediction!! Error:: feature_names mismatch: ['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'] ['sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg', 'perf_12_month_avg', 'lead_time']
+expected sales_6_month in input data
+2023-05-10/08:05:55		Start of the Prediction
+2023-05-10/08:05:55		Entered the get_data method of the Data_Getter class
+2023-05-10/08:05:55		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:05:55		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:05:55		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:05:55		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:05:55		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:05:55		Is Null Values Present :False
+2023-05-10/08:05:55		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:05:55		Scale_numerical_columns name of the columns Index(['sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month',
+       'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg',
+       'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/08:05:55		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:05:55		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:05:55		Exception occurred in encode_categorical_columns method of the Preprocessor class. Exception message:  invalid literal for int() with base 10: '(0.0,)'
+2023-05-10/08:05:55		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:05:55		Error occured while running the prediction!! Error:: 
+2023-05-10/08:44:00		Start of the Prediction
+2023-05-10/08:44:00		Entered the get_data method of the Data_Getter class
+2023-05-10/08:44:00		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:44:00		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:44:00		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:44:00		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:44:00		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:44:00		Is Null Values Present :False
+2023-05-10/08:44:00		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:44:01		Scale_numerical_columns name of the columns Index(['sales_1_month', 'sales_3_month', 'sales_9_month', 'forecast_3_month',
+       'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg',
+       'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/08:44:01		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:44:01		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:44:01		Exception occurred in encode_categorical_columns method of the Preprocessor class. Exception message:  invalid literal for int() with base 10: '(0.0,)'
+2023-05-10/08:44:01		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:44:01		Error occured while running the prediction!! Error:: 
+2023-05-10/08:46:21		Start of the Prediction
+2023-05-10/08:46:21		Entered the get_data method of the Data_Getter class
+2023-05-10/08:46:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:46:21		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:46:21		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:46:21		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:46:21		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:46:21		Is Null Values Present :False
+2023-05-10/08:46:21		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:46:21		Scale_numerical_columns name of the columns Index(['sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg', 'lead_time'],
+      dtype='object')
+2023-05-10/08:46:21		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:46:21		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:46:21		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:46:21		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/08:46:21		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/08:46:21		Entered the load_model method of File_Operation class
+2023-05-10/08:46:21		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/08:46:21		Error occured while running the prediction!! Error:: feature_names mismatch: ['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'perf_6_month_avg', 'perf_12_month_avg'] ['sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'perf_6_month_avg', 'perf_12_month_avg', 'lead_time']
+2023-05-10/08:49:38		Start of the Prediction
+2023-05-10/08:49:38		Entered the get_data method of the Data_Getter class
+2023-05-10/08:49:38		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:49:38		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:49:38		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:49:38		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:49:38		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:49:38		Is Null Values Present :False
+2023-05-10/08:49:38		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:49:38		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/08:49:38		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:49:38		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:49:38		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:49:38		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/08:49:38		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/08:49:38		Entered the load_model method of File_Operation class
+2023-05-10/08:49:38		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/08:49:38		End of Prediction
+2023-05-10/08:55:40		Start of the Prediction
+2023-05-10/08:55:40		Entered the get_data method of the Data_Getter class
+2023-05-10/08:55:40		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/08:55:40		Entered the remove_columns method of the Preprocessor class
+2023-05-10/08:55:40		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/08:55:40		Entered the is_null_present method of the Preprocessor class
+2023-05-10/08:55:40		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/08:55:40		Is Null Values Present :False
+2023-05-10/08:55:40		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:55:40		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/08:55:40		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/08:55:40		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:55:40		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/08:55:40		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/08:55:40		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/08:55:40		Entered the load_model method of File_Operation class
+2023-05-10/08:55:40		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/08:55:40		End of Prediction
+2023-05-10/09:00:15		Start of the Prediction
+2023-05-10/09:00:15		Entered the get_data method of the Data_Getter class
+2023-05-10/09:00:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:00:15		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:00:15		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:00:15		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:00:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:00:15		Is Null Values Present :False
+2023-05-10/09:00:15		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:00:15		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:00:15		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:00:15		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:00:15		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:00:15		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:00:15		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:00:15		Entered the load_model method of File_Operation class
+2023-05-10/09:00:15		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:00:15		End of Prediction
+2023-05-10/09:02:18		Start of the Prediction
+2023-05-10/09:02:18		Entered the get_data method of the Data_Getter class
+2023-05-10/09:02:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:02:18		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:02:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:02:18		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:02:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:02:18		Is Null Values Present :False
+2023-05-10/09:02:18		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:02:18		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:02:18		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:02:18		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:02:18		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:02:18		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:02:18		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:02:18		Entered the load_model method of File_Operation class
+2023-05-10/09:02:18		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:02:18		End of Prediction
+2023-05-10/09:02:52		Start of the Prediction
+2023-05-10/09:02:52		Entered the get_data method of the Data_Getter class
+2023-05-10/09:02:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:02:52		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:02:52		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:02:52		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:02:52		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:02:52		Is Null Values Present :False
+2023-05-10/09:02:52		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:02:52		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:02:52		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:02:52		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:02:52		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:02:52		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:02:52		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:02:52		Entered the load_model method of File_Operation class
+2023-05-10/09:02:52		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:02:52		End of Prediction
+2023-05-10/09:04:07		Start of the Prediction
+2023-05-10/09:04:07		Entered the get_data method of the Data_Getter class
+2023-05-10/09:04:07		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:04:07		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:04:07		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:04:07		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:04:07		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:04:07		Is Null Values Present :False
+2023-05-10/09:04:07		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:04:07		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:04:07		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:04:07		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:04:07		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:04:07		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:04:07		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:04:07		Entered the load_model method of File_Operation class
+2023-05-10/09:04:07		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:04:07		End of Prediction
+2023-05-10/09:05:49		Start of the Prediction
+2023-05-10/09:05:49		Entered the get_data method of the Data_Getter class
+2023-05-10/09:05:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:05:49		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:05:49		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:05:49		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:05:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:05:49		Is Null Values Present :False
+2023-05-10/09:05:49		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:05:49		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:05:49		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:05:49		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:05:49		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:05:49		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:05:49		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:05:49		Entered the load_model method of File_Operation class
+2023-05-10/09:05:49		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:05:49		End of Prediction
+2023-05-10/09:06:05		Start of the Prediction
+2023-05-10/09:06:05		Entered the get_data method of the Data_Getter class
+2023-05-10/09:06:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:06:05		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:06:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:06:05		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:06:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:06:05		Is Null Values Present :False
+2023-05-10/09:06:05		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:06:05		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:06:05		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:06:05		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:06:05		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:06:05		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:06:05		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:06:05		Entered the load_model method of File_Operation class
+2023-05-10/09:06:05		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:06:05		End of Prediction
+2023-05-10/09:08:18		Start of the Prediction
+2023-05-10/09:08:18		Entered the get_data method of the Data_Getter class
+2023-05-10/09:08:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:08:18		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:08:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:08:18		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:08:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:08:18		Is Null Values Present :False
+2023-05-10/09:08:18		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:08:18		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:08:18		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:08:18		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:08:18		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:08:18		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:08:18		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:08:18		Entered the load_model method of File_Operation class
+2023-05-10/09:08:18		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:08:18		End of Prediction
+2023-05-10/09:08:28		Start of the Prediction
+2023-05-10/09:08:28		Entered the get_data method of the Data_Getter class
+2023-05-10/09:08:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:08:28		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:08:28		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:08:28		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:08:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:08:28		Is Null Values Present :False
+2023-05-10/09:08:28		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:08:28		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:08:28		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:08:28		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:08:28		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:08:28		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:08:28		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:08:28		Entered the load_model method of File_Operation class
+2023-05-10/09:08:28		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:08:28		End of Prediction
+2023-05-10/09:28:26		Start of the Prediction
+2023-05-10/09:28:26		Entered the get_data method of the Data_Getter class
+2023-05-10/09:28:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:28:26		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:28:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:28:26		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:28:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:28:26		Is Null Values Present :False
+2023-05-10/09:28:26		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:28:26		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:28:26		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:28:26		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:28:26		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:28:26		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:28:26		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:28:26		Entered the load_model method of File_Operation class
+2023-05-10/09:28:26		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:28:27		End of Prediction
+2023-05-10/09:41:06		Start of the Prediction
+2023-05-10/09:41:06		Entered the get_data method of the Data_Getter class
+2023-05-10/09:41:06		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:41:06		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:41:06		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:41:06		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:41:06		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:41:06		Is Null Values Present :False
+2023-05-10/09:41:06		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:41:06		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:41:06		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:41:06		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:41:06		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:41:06		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:41:06		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:41:06		Entered the load_model method of File_Operation class
+2023-05-10/09:41:06		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:41:06		End of Prediction
+2023-05-10/09:48:44		Start of the Prediction
+2023-05-10/09:48:44		Entered the get_data method of the Data_Getter class
+2023-05-10/09:48:44		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:48:44		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:48:44		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:48:44		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:48:44		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:48:44		Is Null Values Present :False
+2023-05-10/09:48:44		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:48:44		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:48:44		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:48:44		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:48:44		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:48:44		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:48:44		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:48:44		Entered the load_model method of File_Operation class
+2023-05-10/09:48:44		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:48:44		End of Prediction
+2023-05-10/09:56:50		Start of the Prediction
+2023-05-10/09:56:50		Entered the get_data method of the Data_Getter class
+2023-05-10/09:56:50		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:56:50		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:56:50		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:56:50		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:56:50		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:56:50		Is Null Values Present :False
+2023-05-10/09:56:50		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:56:50		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:56:50		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:56:50		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:56:50		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:56:50		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:56:50		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:56:50		Entered the load_model method of File_Operation class
+2023-05-10/09:56:50		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:56:50		End of Prediction
+2023-05-10/09:58:38		Start of the Prediction
+2023-05-10/09:58:38		Entered the get_data method of the Data_Getter class
+2023-05-10/09:58:38		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:58:38		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:58:38		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:58:38		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:58:38		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:58:38		Is Null Values Present :False
+2023-05-10/09:58:38		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:58:38		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:58:38		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:58:38		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:58:38		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:58:38		Entered the find_correct_model_file method of the File_Operation class
+2023-05-10/09:58:38		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-10/09:58:38		Entered the load_model method of File_Operation class
+2023-05-10/09:58:38		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-10/09:58:38		End of Prediction
+2023-05-15/18:35:54		Start of the Prediction
+2023-05-15/18:35:54		Entered the get_data method of the Data_Getter class
+2023-05-15/18:35:54		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/18:35:54		Entered the remove_columns method of the Preprocessor class
+2023-05-15/18:35:54		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/18:35:54		Entered the is_null_present method of the Preprocessor class
+2023-05-15/18:35:54		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/18:35:54		Is Null Values Present :False
+2023-05-15/18:35:54		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:35:54		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/18:35:54		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:35:54		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:35:54		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:35:54		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/18:35:54		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/18:35:54		Entered the load_model method of File_Operation class
+2023-05-15/18:35:54		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/18:35:54		Error occured while running the prediction!! Error:: feature_names must be unique
+2023-05-15/18:49:15		Start of the Prediction
+2023-05-15/18:49:15		Entered the get_data method of the Data_Getter class
+2023-05-15/18:49:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/18:49:15		Entered the remove_columns method of the Preprocessor class
+2023-05-15/18:49:15		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/18:49:15		Entered the is_null_present method of the Preprocessor class
+2023-05-15/18:49:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/18:49:15		Is Null Values Present :False
+2023-05-15/18:49:15		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:49:15		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/18:49:15		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:49:15		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:49:15		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:49:15		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/18:49:15		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/18:49:15		Entered the load_model method of File_Operation class
+2023-05-15/18:49:15		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/18:49:15		End of Prediction
+2023-05-15/18:52:37		Start of the Prediction
+2023-05-15/18:52:37		Entered the get_data method of the Data_Getter class
+2023-05-15/18:52:37		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/18:52:37		Entered the remove_columns method of the Preprocessor class
+2023-05-15/18:52:37		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/18:52:37		Entered the is_null_present method of the Preprocessor class
+2023-05-15/18:52:37		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/18:52:37		Is Null Values Present :False
+2023-05-15/18:52:37		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:52:37		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/18:52:37		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:52:37		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:52:37		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:52:37		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/18:52:37		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/18:52:37		Entered the load_model method of File_Operation class
+2023-05-15/18:52:37		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/18:52:37		End of Prediction
+2023-05-15/18:54:08		Start of the Prediction
+2023-05-15/18:54:08		Entered the get_data method of the Data_Getter class
+2023-05-15/18:54:08		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/18:54:08		Entered the remove_columns method of the Preprocessor class
+2023-05-15/18:54:08		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/18:54:08		Entered the is_null_present method of the Preprocessor class
+2023-05-15/18:54:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/18:54:08		Is Null Values Present :False
+2023-05-15/18:54:08		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:54:08		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/18:54:08		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:54:08		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:54:08		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:54:08		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/18:54:08		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/18:54:08		Entered the load_model method of File_Operation class
+2023-05-15/18:54:08		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/18:54:08		End of Prediction
+2023-05-15/19:04:12		Start of the Prediction
+2023-05-15/19:04:12		Entered the get_data method of the Data_Getter class
+2023-05-15/19:04:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/19:04:12		Entered the remove_columns method of the Preprocessor class
+2023-05-15/19:04:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/19:04:12		Entered the is_null_present method of the Preprocessor class
+2023-05-15/19:04:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/19:04:12		Is Null Values Present :False
+2023-05-15/19:04:12		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/19:04:12		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/19:04:12		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/19:04:12		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/19:04:12		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/19:04:12		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/19:04:12		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/19:04:12		Entered the load_model method of File_Operation class
+2023-05-15/19:04:12		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/19:04:12		End of Prediction
+2023-05-15/19:06:29		Start of the Prediction
+2023-05-15/19:06:29		Entered the get_data method of the Data_Getter class
+2023-05-15/19:06:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/19:06:29		Entered the remove_columns method of the Preprocessor class
+2023-05-15/19:06:29		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/19:06:29		Entered the is_null_present method of the Preprocessor class
+2023-05-15/19:06:29		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/19:06:29		Is Null Values Present :False
+2023-05-15/19:06:29		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/19:06:29		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/19:06:29		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/19:06:29		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/19:06:29		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/19:06:29		Entered the find_correct_model_file method of the File_Operation class
+2023-05-15/19:06:29		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-15/19:06:29		Entered the load_model method of File_Operation class
+2023-05-15/19:06:29		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-15/19:06:29		End of Prediction
+2023-05-16/18:04:55		Start of the Prediction
+2023-05-16/18:04:55		Entered the get_data method of the Data_Getter class
+2023-05-16/18:04:55		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:04:55		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:04:55		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:04:55		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:04:55		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:04:55		Is Null Values Present :False
+2023-05-16/18:04:55		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:04:55		Exception occurred in encode_categorical_columns method of the Preprocessor class. Exception message:  'numpy.ndarray' object has no attribute 'select_dtypes'
+2023-05-16/18:04:55		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:04:55		Error occured while running the prediction!! Error:: 
+2023-05-16/18:09:22		Start of the Prediction
+2023-05-16/18:09:22		Entered the get_data method of the Data_Getter class
+2023-05-16/18:09:22		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:09:22		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:09:22		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:09:22		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:09:22		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:09:22		Is Null Values Present :False
+2023-05-16/18:09:22		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:09:22		Exception occurred in encode_categorical_columns method of the Preprocessor class. Exception message:  'numpy.ndarray' object has no attribute 'select_dtypes'
+2023-05-16/18:09:22		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:09:22		Error occured while running the prediction!! Error:: 
+2023-05-16/18:14:16		Start of the Prediction
+2023-05-16/18:14:16		Entered the get_data method of the Data_Getter class
+2023-05-16/18:14:16		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:14:16		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:14:16		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:14:16		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:14:16		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:14:16		Is Null Values Present :False
+2023-05-16/18:14:16		Error occured while running the prediction!! Error:: 'DataFrame' object has no attribute 'reshape'
+2023-05-16/18:16:34		Start of the Prediction
+2023-05-16/18:16:34		Entered the get_data method of the Data_Getter class
+2023-05-16/18:16:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:16:34		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:16:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:16:34		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:16:34		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:16:34		Is Null Values Present :False
+2023-05-16/18:16:34		Error occured while running the prediction!! Error:: 'Prediction' object has no attribute 'data'
+2023-05-16/18:17:45		Start of the Prediction
+2023-05-16/18:17:45		Entered the get_data method of the Data_Getter class
+2023-05-16/18:17:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:17:45		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:17:45		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:17:45		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:17:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:17:45		Is Null Values Present :False
+2023-05-16/18:17:45		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:17:45		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:17:45		Entered the find_correct_model_file method of the File_Operation class
+2023-05-16/18:17:45		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-16/18:17:45		Entered the load_model method of File_Operation class
+2023-05-16/18:17:45		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-16/18:17:45		End of Prediction
+2023-05-16/18:18:44		Start of the Prediction
+2023-05-16/18:18:44		Entered the get_data method of the Data_Getter class
+2023-05-16/18:18:44		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-16/18:18:44		Entered the remove_columns method of the Preprocessor class
+2023-05-16/18:18:44		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-16/18:18:44		Entered the is_null_present method of the Preprocessor class
+2023-05-16/18:18:44		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-16/18:18:44		Is Null Values Present :False
+2023-05-16/18:18:44		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:18:44		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-16/18:18:44		Entered the find_correct_model_file method of the File_Operation class
+2023-05-16/18:18:44		Exited the find_correct_model_file method of the Model_Finder class.
+2023-05-16/18:18:44		Entered the load_model method of File_Operation class
+2023-05-16/18:18:44		Model File XGBoostloaded. Exited the load_model method of the File_Operation class
+2023-05-16/18:18:44		End of Prediction

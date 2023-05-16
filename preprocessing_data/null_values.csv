@@ -1,0 +1,12 @@
+,columns,missing values count
+0,lead_time,115617
+1,forecast_3_month,0
+2,forecast_6_month,0
+3,forecast_9_month,0
+4,sales_1_month,0
+5,sales_3_month,0
+6,sales_6_month,0
+7,sales_9_month,0
+8,perf_6_month_avg,0
+9,perf_12_month_avg,0
+10,went_on_backorder,0

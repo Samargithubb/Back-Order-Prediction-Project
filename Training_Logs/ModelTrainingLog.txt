@@ -1,0 +1,708 @@
+2023-05-07/07:22:52		Start of Training
+2023-05-07/07:22:52		Entered the get_data method of the Data_Getter class
+2023-05-07/07:22:55		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/07:22:55		Entered the remove_columns method of the Preprocessor class
+2023-05-07/07:22:55		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/07:22:55		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:22:56		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:22:56		Entered the is_null_present method of the Preprocessor class
+2023-05-07/07:22:56		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/07:22:56		Is Null Values Present :False
+2023-05-07/07:22:56		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/07:22:56		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/07:22:56		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:24:47		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:24:47		Entered the get_best_model method of the Model_Finder class
+2023-05-07/07:24:47		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-07/07:25:00		XGBoost Score : 0.5324744321955107
+2023-05-07/07:25:00		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-07/07:25:16		Random Forest Score : 0.5332361939423295
+2023-05-07/07:25:16		Entered the save_model method of the File_Operation class
+2023-05-07/07:25:16		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-07/07:25:16		Successful End of Training
+2023-05-07/07:27:15		Start of Training
+2023-05-07/07:27:15		Entered the get_data method of the Data_Getter class
+2023-05-07/07:27:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/07:27:18		Entered the remove_columns method of the Preprocessor class
+2023-05-07/07:27:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/07:27:18		Entered the is_null_present method of the Preprocessor class
+2023-05-07/07:27:19		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/07:27:19		Is Null Values Present :True
+2023-05-07/07:27:19		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/07:27:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/07:27:19		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:27:20		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:27:20		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/07:27:21		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/07:27:21		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:29:08		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:29:08		Entered the get_best_model method of the Model_Finder class
+2023-05-07/07:29:08		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-07/07:29:20		XGBoost Score : 0.5324744321955107
+2023-05-07/07:29:20		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-07/07:29:38		Random Forest Score : 0.5332361939423295
+2023-05-07/07:29:38		Entered the save_model method of the File_Operation class
+2023-05-07/07:29:38		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-07/07:29:38		Successful End of Training
+2023-05-07/07:30:46		Start of Training
+2023-05-07/07:30:46		Entered the get_data method of the Data_Getter class
+2023-05-07/07:30:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/07:30:48		Entered the remove_columns method of the Preprocessor class
+2023-05-07/07:30:48		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/07:30:48		Entered the is_null_present method of the Preprocessor class
+2023-05-07/07:30:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/07:30:49		Is Null Values Present :True
+2023-05-07/07:30:49		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/07:30:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/07:30:49		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:30:50		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/07:30:50		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/07:30:50		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/07:30:50		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:32:37		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/07:32:37		Entered the get_best_model method of the Model_Finder class
+2023-05-07/07:32:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-07/07:32:50		XGBoost Score : 0.5324744321955107
+2023-05-07/07:32:50		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-07/07:33:06		Random Forest Score : 0.5332361939423295
+2023-05-07/07:33:06		Entered the save_model method of the File_Operation class
+2023-05-07/07:33:06		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-07/07:33:06		Successful End of Training
+2023-05-07/07:48:16		Start of Training
+2023-05-07/07:48:16		Entered the get_data method of the Data_Getter class
+2023-05-07/07:48:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/07:48:18		Entered the remove_columns method of the Preprocessor class
+2023-05-07/07:48:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/07:48:18		Entered the is_null_present method of the Preprocessor class
+2023-05-07/07:48:19		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/07:48:19		Is Null Values Present :True
+2023-05-07/07:48:19		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/07:48:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/07:48:19		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/07:48:19		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  could not convert string to float: 'No'
+2023-05-07/07:48:19		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/07:48:19		Unsuccessful End of Training
+2023-05-07/08:00:08		Start of Training
+2023-05-07/08:00:08		Entered the get_data method of the Data_Getter class
+2023-05-07/08:00:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:00:10		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:00:10		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:00:10		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:00:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:00:11		Is Null Values Present :True
+2023-05-07/08:00:11		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:00:11		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:00:11		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:00:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:00:11		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:00:11		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  could not convert string to float: 'No'
+2023-05-07/08:00:11		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:00:11		Unsuccessful End of Training
+2023-05-07/08:09:20		Start of Training
+2023-05-07/08:09:20		Entered the get_data method of the Data_Getter class
+2023-05-07/08:09:23		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:09:23		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:09:23		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:09:23		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:09:23		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:09:23		Is Null Values Present :True
+2023-05-07/08:09:23		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:09:23		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:09:23		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:09:23		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:09:23		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:09:24		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  write() argument must be str, not Index
+2023-05-07/08:09:24		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:09:24		Unsuccessful End of Training
+2023-05-07/08:10:39		Start of Training
+2023-05-07/08:10:39		Entered the get_data method of the Data_Getter class
+2023-05-07/08:10:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:10:42		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:10:42		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:10:42		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:10:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:10:42		Is Null Values Present :True
+2023-05-07/08:10:42		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:10:42		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:10:42		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:10:42		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:10:42		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:10:43		Scale_numerical_columns name of the columns Index(['forecast_6_month', 'in_transit_qty', 'lead_time', 'local_bo_qty',
+       'min_bank', 'national_inv', 'perf_6_month_avg', 'pieces_past_due',
+       'sales_1_month'])
+2023-05-07/08:10:43		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  [Errno 2] No such file or directory: 'scale/scalingModel.pkl'
+2023-05-07/08:10:43		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:10:43		Unsuccessful End of Training
+2023-05-07/08:12:24		Start of Training
+2023-05-07/08:12:24		Entered the get_data method of the Data_Getter class
+2023-05-07/08:12:27		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:12:27		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:12:27		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:12:27		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:12:27		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:12:27		Is Null Values Present :True
+2023-05-07/08:12:27		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:12:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:12:27		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:12:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:12:28		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:12:28		Scale_numerical_columns name of the columns Index(['forecast_6_month', 'in_transit_qty', 'lead_time', 'local_bo_qty',
+       'min_bank', 'national_inv', 'perf_6_month_avg', 'pieces_past_due',
+       'sales_1_month'])
+2023-05-07/08:12:28		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:12:28		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:12:29		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:12:29		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/08:13:32		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/08:13:32		Entered the get_best_model method of the Model_Finder class
+2023-05-07/08:13:32		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-07/08:14:27		XGBoost Score : 0.9645371231239208
+2023-05-07/08:14:27		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-07/08:15:01		Exception occurred in get_best_model method of the Model_Finder class. Exception message:  could not convert string to float: 'No'
+2023-05-07/08:15:01		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-05-07/08:15:01		Unsuccessful End of Training
+2023-05-07/08:18:25		Start of Training
+2023-05-07/08:18:25		Entered the get_data method of the Data_Getter class
+2023-05-07/08:18:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:18:28		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:18:28		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:18:28		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:18:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:18:28		Is Null Values Present :True
+2023-05-07/08:18:28		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:18:28		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:18:28		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:18:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:18:28		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:18:29		Scale_numerical_columns name of the columns Index(['forecast_6_month', 'in_transit_qty', 'lead_time', 'local_bo_qty',
+       'min_bank', 'national_inv', 'perf_6_month_avg', 'pieces_past_due',
+       'sales_1_month'])
+2023-05-07/08:18:29		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:18:29		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:18:30		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:18:30		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:18:30		Exception occurred in encode_categorical_columns method of the Preprocessor class. Exception message:  'Series' object has no attribute 'select_dtypes'
+2023-05-07/08:18:30		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:18:30		Unsuccessful End of Training
+2023-05-07/08:25:05		Start of Training
+2023-05-07/08:25:05		Entered the get_data method of the Data_Getter class
+2023-05-07/08:25:08		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-07/08:25:08		Entered the remove_columns method of the Preprocessor class
+2023-05-07/08:25:08		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-07/08:25:08		Entered the is_null_present method of the Preprocessor class
+2023-05-07/08:25:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-07/08:25:08		Is Null Values Present :True
+2023-05-07/08:25:08		Entered the impute_missing_values method of the Preprocessor class
+2023-05-07/08:25:08		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-07/08:25:08		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-07/08:25:08		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-07/08:25:08		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:25:09		Scale_numerical_columns name of the columns Index(['forecast_6_month', 'in_transit_qty', 'lead_time', 'local_bo_qty',
+       'min_bank', 'national_inv', 'perf_6_month_avg', 'pieces_past_due',
+       'sales_1_month'])
+2023-05-07/08:25:09		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-07/08:25:09		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:25:11		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-07/08:25:11		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/08:26:13		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-07/08:26:13		Entered the get_best_model method of the Model_Finder class
+2023-05-07/08:26:13		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-07/08:28:01		XGBoost Score : 0.9645371231239208
+2023-05-07/08:28:01		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-07/08:28:39		Random Forest Score : 0.9635856064345991
+2023-05-07/08:28:39		Entered the save_model method of the File_Operation class
+2023-05-07/08:28:39		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-07/08:28:39		Successful End of Training
+2023-05-09/07:37:16		Start of Training
+2023-05-09/07:37:16		Entered the get_data method of the Data_Getter class
+2023-05-09/07:37:19		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/07:37:19		Entered the remove_columns method of the Preprocessor class
+2023-05-09/07:37:19		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/07:37:19		Entered the is_null_present method of the Preprocessor class
+2023-05-09/07:37:20		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/07:37:20		Is Null Values Present :False
+2023-05-09/07:37:20		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/07:37:20		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/07:37:20		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/07:37:20		Scale_numerical_columns name of the columns Index(['forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month',
+       'sales_3_month', 'sales_6_month', 'sales_9_month'],
+      dtype='object')
+2023-05-09/07:37:20		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/07:37:20		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/07:37:20		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/07:37:20		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/07:37:38		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/07:37:38		Entered the get_best_model method of the Model_Finder class
+2023-05-09/07:37:38		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/07:38:13		XGBoost Score : 0.9790144773542303
+2023-05-09/07:38:13		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/07:38:51		Random Forest Score : 0.9796583792639084
+2023-05-09/07:38:51		Entered the save_model method of the File_Operation class
+2023-05-09/07:38:51		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/07:38:51		Successful End of Training
+2023-05-09/09:07:37		Start of Training
+2023-05-09/09:07:37		Entered the get_data method of the Data_Getter class
+2023-05-09/09:07:40		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/09:07:40		Entered the remove_columns method of the Preprocessor class
+2023-05-09/09:07:40		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/09:07:40		Entered the is_null_present method of the Preprocessor class
+2023-05-09/09:07:40		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/09:07:40		Is Null Values Present :False
+2023-05-09/09:07:40		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/09:07:40		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/09:07:40		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:07:40		Scale_numerical_columns name of the columns Index(['forecast_3_month', 'perf_6_month_avg', 'sales_1_month',
+       'sales_3_month', 'sales_6_month', 'sales_9_month'],
+      dtype='object')
+2023-05-09/09:07:40		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:07:40		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:07:40		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:07:40		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:07:49		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:07:49		Entered the get_best_model method of the Model_Finder class
+2023-05-09/09:07:49		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/09:08:15		XGBoost Score : 0.9683888962677647
+2023-05-09/09:08:15		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/09:08:49		Random Forest Score : 0.9686213869805838
+2023-05-09/09:08:49		Entered the save_model method of the File_Operation class
+2023-05-09/09:08:49		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/09:08:49		Successful End of Training
+2023-05-09/09:09:56		Start of Training
+2023-05-09/09:09:56		Entered the get_data method of the Data_Getter class
+2023-05-09/09:09:59		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/09:09:59		Entered the remove_columns method of the Preprocessor class
+2023-05-09/09:09:59		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/09:09:59		Entered the is_null_present method of the Preprocessor class
+2023-05-09/09:09:59		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/09:09:59		Is Null Values Present :False
+2023-05-09/09:09:59		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/09:09:59		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/09:09:59		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:09:59		Scale_numerical_columns name of the columns Index(['forecast_3_month', 'perf_6_month_avg', 'sales_1_month',
+       'sales_9_month'],
+      dtype='object')
+2023-05-09/09:09:59		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:09:59		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:09:59		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:09:59		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:10:05		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:10:05		Entered the get_best_model method of the Model_Finder class
+2023-05-09/09:10:05		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/09:10:30		XGBoost Score : 0.9544428210917785
+2023-05-09/09:10:30		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/09:10:54		Random Forest Score : 0.9551930269639077
+2023-05-09/09:10:54		Entered the save_model method of the File_Operation class
+2023-05-09/09:10:54		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/09:10:54		Successful End of Training
+2023-05-09/09:12:29		Start of Training
+2023-05-09/09:12:29		Entered the get_data method of the Data_Getter class
+2023-05-09/09:12:31		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/09:12:31		Entered the remove_columns method of the Preprocessor class
+2023-05-09/09:12:31		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/09:12:31		Entered the is_null_present method of the Preprocessor class
+2023-05-09/09:12:31		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/09:12:31		Is Null Values Present :True
+2023-05-09/09:12:31		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/09:12:31		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/09:12:31		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/09:12:31		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/09:12:31		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:12:32		Scale_numerical_columns name of the columns Index(['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time',
+       'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month',
+       'sales_3_month', 'sales_6_month', 'sales_9_month'],
+      dtype='object')
+2023-05-09/09:12:32		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/09:12:32		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:12:32		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/09:12:32		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:12:52		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/09:12:52		Entered the get_best_model method of the Model_Finder class
+2023-05-09/09:12:52		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/09:13:26		XGBoost Score : 0.9808739540443618
+2023-05-09/09:13:26		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/09:13:59		Random Forest Score : 0.9812582225537823
+2023-05-09/09:13:59		Entered the save_model method of the File_Operation class
+2023-05-09/09:13:59		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/09:13:59		Successful End of Training
+2023-05-09/10:15:23		Start of Training
+2023-05-09/10:15:23		Entered the get_data method of the Data_Getter class
+2023-05-09/10:15:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:15:26		Entered the remove_columns method of the Preprocessor class
+2023-05-09/10:15:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/10:15:26		Entered the is_null_present method of the Preprocessor class
+2023-05-09/10:15:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/10:15:26		Is Null Values Present :True
+2023-05-09/10:15:26		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/10:15:26		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/10:15:26		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/10:15:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/10:15:26		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:15:27		Scale_numerical_columns name of the columns Index(['forecast_3_month', 'forecast_6_month', 'forecast_9_month', 'lead_time',
+       'perf_12_month_avg', 'perf_6_month_avg', 'sales_1_month',
+       'sales_3_month', 'sales_6_month', 'sales_9_month'],
+      dtype='object')
+2023-05-09/10:15:27		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/10:15:27		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:15:27		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/10:15:27		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/10:15:51		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/10:15:51		Entered the get_best_model method of the Model_Finder class
+2023-05-09/10:15:51		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/10:16:32		XGBoost Score : 0.9808739540443618
+2023-05-09/10:16:32		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/10:16:59		Random Forest Score : 0.9808546629306882
+2023-05-09/10:16:59		Entered the save_model method of the File_Operation class
+2023-05-09/10:16:59		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-09/10:16:59		Successful End of Training
+2023-05-09/10:59:19		Start of Training
+2023-05-09/10:59:19		Entered the get_data method of the Data_Getter class
+2023-05-09/10:59:19		Exception occurred in get_data method of the Data_Getter class. Exception message: [Errno 2] File b'Training_FileFromDB/train_data.csv' does not exist: b'Training_FileFromDB/train_data.csv'
+2023-05-09/10:59:19		Data Load Unsuccessful.Exited the get_data method of the Data_Getter class
+2023-05-09/10:59:19		Unsuccessful End of Training
+2023-05-09/11:00:42		Start of Training
+2023-05-09/11:00:42		Entered the get_data method of the Data_Getter class
+2023-05-09/11:00:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/11:00:45		Entered the remove_columns method of the Preprocessor class
+2023-05-09/11:00:45		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/11:00:45		Entered the is_null_present method of the Preprocessor class
+2023-05-09/11:00:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/11:00:45		Is Null Values Present :True
+2023-05-09/11:00:45		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/11:00:45		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/11:00:45		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/11:00:45		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/11:00:45		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:00:46		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/11:00:46		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/11:00:46		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:00:46		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/11:00:46		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/11:01:09		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/11:01:09		Entered the get_best_model method of the Model_Finder class
+2023-05-09/11:01:09		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/11:01:46		XGBoost Score : 0.9875149422234029
+2023-05-09/11:01:46		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/11:02:14		Random Forest Score : 0.9877613258489572
+2023-05-09/11:02:14		Entered the save_model method of the File_Operation class
+2023-05-09/11:02:14		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/11:02:14		Successful End of Training
+2023-05-09/12:19:48		Start of Training
+2023-05-09/12:19:48		Entered the get_data method of the Data_Getter class
+2023-05-09/12:19:51		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:19:51		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:19:51		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:19:51		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:19:51		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:19:51		Is Null Values Present :True
+2023-05-09/12:19:51		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:19:51		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:19:51		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/12:19:51		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/12:19:51		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:19:52		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:19:52		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:19:52		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:19:52		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:19:52		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:20:14		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:20:14		Entered the get_best_model method of the Model_Finder class
+2023-05-09/12:20:14		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/12:20:50		XGBoost Score : 0.9877213264370516
+2023-05-09/12:20:50		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/12:21:17		Random Forest Score : 0.9879870014385759
+2023-05-09/12:21:17		Entered the save_model method of the File_Operation class
+2023-05-09/12:21:17		Model FileRandom Forestsaved. Exited the save model of the File_Operation class
+2023-05-09/12:21:17		Successful End of Training
+2023-05-09/12:34:19		Start of Training
+2023-05-09/12:34:19		Entered the get_data method of the Data_Getter class
+2023-05-09/12:34:22		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:34:22		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:34:22		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:34:22		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:34:22		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:34:22		Is Null Values Present :True
+2023-05-09/12:34:22		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:34:22		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:34:22		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/12:34:22		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/12:34:22		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:34:23		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:34:23		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:34:23		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:34:23		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:34:23		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:34:47		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:34:47		Entered the get_best_model method of the Model_Finder class
+2023-05-09/12:34:47		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/12:35:25		Exception occurred in get_best_model method of the Model_Finder class. Exception message:  need to call fit or load_model beforehand
+2023-05-09/12:35:25		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-05-09/12:35:25		Unsuccessful End of Training
+2023-05-09/12:36:12		Start of Training
+2023-05-09/12:36:12		Entered the get_data method of the Data_Getter class
+2023-05-09/12:36:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:36:15		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:36:15		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:36:15		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:36:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:36:15		Is Null Values Present :True
+2023-05-09/12:36:15		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:36:15		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:36:15		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/12:36:15		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/12:36:15		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:36:16		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:36:16		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:36:16		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:36:16		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:36:16		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:36:39		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:36:39		Entered the get_best_model method of the Model_Finder class
+2023-05-09/12:36:39		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/12:37:11		Exception occurred in get_best_model method of the Model_Finder class. Exception message:  need to call fit or load_model beforehand
+2023-05-09/12:37:11		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-05-09/12:37:11		Unsuccessful End of Training
+2023-05-09/12:49:03		Start of Training
+2023-05-09/12:49:03		Entered the get_data method of the Data_Getter class
+2023-05-09/12:49:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:49:05		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:49:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:49:05		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:49:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:49:05		Is Null Values Present :True
+2023-05-09/12:49:05		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:49:05		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:49:05		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/12:49:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/12:49:06		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:49:06		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:49:06		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:49:06		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:49:06		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:49:06		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:49:29		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:49:29		Entered the get_best_model method of the Model_Finder class
+2023-05-09/12:49:29		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/12:50:06		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/12:50:38		Exception occurred in get_best_model method of the Model_Finder class. Exception message:  name 'mode' is not defined
+2023-05-09/12:50:38		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-05-09/12:50:38		Unsuccessful End of Training
+2023-05-09/12:51:23		Start of Training
+2023-05-09/12:51:23		Entered the get_data method of the Data_Getter class
+2023-05-09/12:51:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/12:51:26		Entered the remove_columns method of the Preprocessor class
+2023-05-09/12:51:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/12:51:26		Entered the is_null_present method of the Preprocessor class
+2023-05-09/12:51:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/12:51:26		Is Null Values Present :True
+2023-05-09/12:51:26		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/12:51:26		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/12:51:26		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/12:51:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/12:51:26		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:51:27		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/12:51:27		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/12:51:27		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:51:27		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/12:51:27		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:51:50		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/12:51:50		Entered the get_best_model method of the Model_Finder class
+2023-05-09/12:51:50		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/12:52:32		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/12:53:03		Entered the save_model method of the File_Operation class
+2023-05-09/12:53:03		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-09/12:53:03		Successful End of Training
+2023-05-09/13:00:38		Start of Training
+2023-05-09/13:00:38		Entered the get_data method of the Data_Getter class
+2023-05-09/13:00:41		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-09/13:00:41		Entered the remove_columns method of the Preprocessor class
+2023-05-09/13:00:41		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-09/13:00:41		Entered the is_null_present method of the Preprocessor class
+2023-05-09/13:00:41		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-09/13:00:41		Is Null Values Present :True
+2023-05-09/13:00:41		Entered the impute_missing_values method of the Preprocessor class
+2023-05-09/13:00:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-09/13:00:41		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-09/13:00:41		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-09/13:00:41		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-09/13:00:42		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-09/13:00:42		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-09/13:00:42		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-09/13:00:42		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-09/13:00:42		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/13:01:03		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-09/13:01:03		Entered the get_best_model method of the Model_Finder class
+2023-05-09/13:01:03		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-09/13:01:33		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-09/13:02:03		Accuracy Score: 0.9880462212777261
+2023-05-09/13:02:03		Entered the save_model method of the File_Operation class
+2023-05-09/13:02:03		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-09/13:02:03		Successful End of Training
+2023-05-10/09:10:05		Start of Training
+2023-05-10/09:10:05		Entered the get_data method of the Data_Getter class
+2023-05-10/09:10:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-10/09:10:10		Entered the remove_columns method of the Preprocessor class
+2023-05-10/09:10:10		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-10/09:10:10		Entered the is_null_present method of the Preprocessor class
+2023-05-10/09:10:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-10/09:10:11		Is Null Values Present :True
+2023-05-10/09:10:11		Entered the impute_missing_values method of the Preprocessor class
+2023-05-10/09:10:11		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-10/09:10:11		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-10/09:10:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-10/09:10:11		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:10:12		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-10/09:10:12		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-10/09:10:12		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:10:12		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-10/09:10:12		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-10/09:10:55		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-10/09:10:55		Entered the get_best_model method of the Model_Finder class
+2023-05-10/09:10:55		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-10/09:11:34		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-10/09:12:30		Accuracy Score: 0.9879134015141453
+2023-05-10/09:12:30		Entered the save_model method of the File_Operation class
+2023-05-10/09:12:30		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-10/09:12:30		Successful End of Training
+2023-05-14/08:54:57		Start of Training
+2023-05-14/08:54:57		Entered the get_data method of the Data_Getter class
+2023-05-14/08:54:59		Exception occurred in get_data method of the Data_Getter class. Exception message: [Errno 2] File b'' does not exist: b''
+2023-05-14/08:54:59		Data Load Unsuccessful.Exited the get_data method of the Data_Getter class
+2023-05-14/08:54:59		Unsuccessful End of Training
+2023-05-14/08:56:38		Start of Training
+2023-05-14/08:56:38		Entered the get_data method of the Data_Getter class
+2023-05-14/08:56:40		Exception occurred in get_data method of the Data_Getter class. Exception message: [Errno 2] File b'' does not exist: b''
+2023-05-14/08:56:40		Data Load Unsuccessful.Exited the get_data method of the Data_Getter class
+2023-05-14/08:56:40		Unsuccessful End of Training
+2023-05-14/08:57:20		Start of Training
+2023-05-14/08:57:20		Entered the get_data method of the Data_Getter class
+2023-05-14/08:57:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-14/08:57:25		Entered the remove_columns method of the Preprocessor class
+2023-05-14/08:57:25		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-14/08:57:25		Entered the is_null_present method of the Preprocessor class
+2023-05-14/08:57:25		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-14/08:57:25		Is Null Values Present :True
+2023-05-14/08:57:25		Entered the impute_missing_values method of the Preprocessor class
+2023-05-14/08:57:25		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-14/08:57:25		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-14/08:57:25		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-14/08:57:25		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-14/08:57:26		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  could not convert string to float: 'lead_time'
+2023-05-14/08:57:26		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-14/08:57:26		Unsuccessful End of Training
+2023-05-14/09:03:34		Start of Training
+2023-05-14/09:03:34		Entered the get_data method of the Data_Getter class
+2023-05-14/09:03:37		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-14/09:03:37		Entered the remove_columns method of the Preprocessor class
+2023-05-14/09:03:37		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-14/09:03:37		Entered the is_null_present method of the Preprocessor class
+2023-05-14/09:03:37		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-14/09:03:37		Is Null Values Present :True
+2023-05-14/09:03:37		Entered the impute_missing_values method of the Preprocessor class
+2023-05-14/09:03:38		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-14/09:03:38		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-14/09:03:38		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-14/09:03:38		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:03:38		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  could not convert string to float: 'lead_time'
+2023-05-14/09:03:38		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:03:38		Unsuccessful End of Training
+2023-05-14/09:04:21		Start of Training
+2023-05-14/09:04:21		Entered the get_data method of the Data_Getter class
+2023-05-14/09:04:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-14/09:04:24		Entered the remove_columns method of the Preprocessor class
+2023-05-14/09:04:24		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-14/09:04:24		Entered the is_null_present method of the Preprocessor class
+2023-05-14/09:04:24		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-14/09:04:24		Is Null Values Present :True
+2023-05-14/09:04:24		Entered the impute_missing_values method of the Preprocessor class
+2023-05-14/09:04:24		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-14/09:04:24		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-14/09:04:24		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-14/09:04:24		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:04:24		Exception occurred in Scale_numerical_columns method of the Preprocessor class. Exception message:  could not convert string to float: 'lead_time'
+2023-05-14/09:04:24		Finding missing values failed. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:04:24		Unsuccessful End of Training
+2023-05-14/09:16:14		Start of Training
+2023-05-14/09:16:14		Entered the get_data method of the Data_Getter class
+2023-05-14/09:16:17		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-14/09:16:17		Entered the remove_columns method of the Preprocessor class
+2023-05-14/09:16:17		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-14/09:16:17		Entered the is_null_present method of the Preprocessor class
+2023-05-14/09:16:17		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-14/09:16:17		Is Null Values Present :True
+2023-05-14/09:16:17		Entered the impute_missing_values method of the Preprocessor class
+2023-05-14/09:16:17		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-14/09:16:17		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-14/09:16:17		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-14/09:16:17		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:16:18		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-14/09:16:18		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-14/09:16:18		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-14/09:16:18		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-14/09:16:18		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-14/09:16:49		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-14/09:16:49		Entered the get_best_model method of the Model_Finder class
+2023-05-14/09:16:49		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-14/09:18:02		XGBoost Score : 0.9881343980418645
+2023-05-14/09:18:02		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-14/09:18:54		Random Forest Score : 0.9881250742450488
+2023-05-14/09:18:54		Entered the save_model method of the File_Operation class
+2023-05-14/09:18:54		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-14/09:18:54		Successful End of Training
+2023-05-15/18:45:42		Start of Training
+2023-05-15/18:45:42		Entered the get_data method of the Data_Getter class
+2023-05-15/18:45:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-05-15/18:45:45		Entered the remove_columns method of the Preprocessor class
+2023-05-15/18:45:46		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-05-15/18:45:46		Entered the is_null_present method of the Preprocessor class
+2023-05-15/18:45:46		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-05-15/18:45:46		Is Null Values Present :True
+2023-05-15/18:45:46		Entered the impute_missing_values method of the Preprocessor class
+2023-05-15/18:45:46		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-05-15/18:45:46		Entered the separate_label_feature method of the Preprocessor class 
+2023-05-15/18:45:46		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-05-15/18:45:46		Entered the scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:45:47		Scale_numerical_columns name of the columns Index(['lead_time', 'forecast_3_month', 'forecast_6_month', 'forecast_9_month',
+       'sales_1_month', 'sales_3_month', 'sales_6_month', 'sales_9_month',
+       'perf_6_month_avg', 'perf_12_month_avg'],
+      dtype='object')
+2023-05-15/18:45:47		Scaling performed Successfully. Exited the Scale_numerical_columns method of the Preprocessor class
+2023-05-15/18:45:47		Entered the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:45:47		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-05-15/18:45:47		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-15/18:46:32		Balancing dataset Successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2023-05-15/18:46:32		Entered the get_best_model method of the Model_Finder class
+2023-05-15/18:46:32		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-05-15/18:47:21		XGBoost Score : 0.9881343980418645
+2023-05-15/18:47:21		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-05-15/18:47:53		Random Forest Score : 0.9878097227171894
+2023-05-15/18:47:53		Entered the save_model method of the File_Operation class
+2023-05-15/18:47:53		Model FileXGBoostsaved. Exited the save model of the File_Operation class
+2023-05-15/18:47:53		Successful End of Training
