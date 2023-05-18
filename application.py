@@ -11,17 +11,17 @@ from Prediction.prediction import Prediction
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
 
-app = Flask(__name__)
-CORS(app)
+application = Flask(__name__)
+CORS(application)
 
 
-@app.route('/', methods=['GET'])
+@application.route('/', methods=['GET'])
 @cross_origin()
 def home():
     return render_template('index.html')
 
 
-@app.route('/predict', methods=['POST'])
+@application.route('/predict', methods=['POST'])
 @cross_origin()
 def predictRouteClient():
     try:
@@ -70,7 +70,7 @@ def predictRouteClient():
         return Response("Error Occurred! %s" % e)
 
 
-@app.route('/train', methods=['GET', 'POST'])
+@application.route('/train', methods=['GET', 'POST'])
 @cross_origin()
 def training():
     try:
@@ -92,6 +92,6 @@ def training():
 if __name__ == "__main__":
     host = '0.0.0.0'
     port = 5000
-    httpd = simple_server.make_server(host, port, app)
+    httpd = simple_server.make_server(host, port, application)
     print("Serving on %s %d" % (host, port))
     httpd.serve_forever()
