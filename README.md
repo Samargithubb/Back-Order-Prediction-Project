@@ -6,7 +6,7 @@ Analyzing back order data is important because it can help businesses understand
 
 ## Data Description 
 The dataset contains 23 columns or features, and their brief descriptions are as follows:¶
-sku: Unique ID for each product
+-sku: Unique ID for each product
 national_inv: The current inventory level of the the product
 lead_time: The time taken for the supplier to deliver the product to customer
 in_transit_qty: The number of products that are in transit from the supplier to the seller's warehouse
