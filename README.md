@@ -30,3 +30,14 @@ The dataset contains 23 columns or features, and their brief descriptions are as
 * stop_auto_buy: A binary feature indicating whether the seller has stopped automatic reordering of the product
 * rev_stop: A binary feature indicating whether the seller has stopped revenue recognition for the product
 * went_on_backorder: The target variable, which is a binary feature indicating whether the product went on backorder or not
+
+* Home Page 
+
+<p align="center">
+  <img src="s" width='600px'>
+</p>
+
+* Predict Page
+<p align="center">
+  <img src="Model_image\predict.png" width='600px' border = "1px">
+</p>
