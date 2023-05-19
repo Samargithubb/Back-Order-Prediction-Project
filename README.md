@@ -5,27 +5,50 @@ In simple terms, a back order is an order that a customer has placed for a produ
 Analyzing back order data is important because it can help businesses understand their customers demand patterns and supply chian performance. This analysis tries to minimize the effects by predicting the products which are likely to go on a back order before its occurrence, so that businesses can take necessary actions at an earlier point of time, thus improving overall efficiency.
 
 ## Data Description 
-The dataset contains 23 columns or features, and their brief descriptions are as follows:¶
--sku: Unique ID for each product
+The dataset contains 23 columns or features, and their brief descriptions are as follows:
+
+sku: Unique ID for each product
+
 national_inv: The current inventory level of the the product
+
 lead_time: The time taken for the supplier to deliver the product to customer
+
 in_transit_qty: The number of products that are in transit from the supplier to the seller's warehouse
+
 forecast_3_month: The forecasted demand for the product in the next 3 months
+
 forecast_6_month: The forecasted demand for the product in the next 6 months
+
 forecast_9_month: The forecasted demand for the product in the next 9 months
+
 sales_1_month: The number of units sold in the last 1 month
+
 sales_3_month: The number of units sold in the last 3 months
+
 sales_6_month: The number of units sold in the last 6 months
+
 sales_9_month: The number of units sold in the last 9 months
+
 min_bank: The minimum recommended inventory level to be maintained for the product
+
 potential_issue: A binary feature indicating whether the product has any potential issues that may cause it to go on backorder
+
 pieces_past_due: The number of units of the product that were ordered but not delivered on time
+
 perf_6_month_avg: The average performance of the product in the last 6 months
+
 perf_12_month_avg: The average performance of the product in the last 12 months
+
 local_bo_qty: The quantity of the product that is currently on backorder at the seller's warehouse
+
 deck_risk: A binary feature indicating whether the product is at risk of being damaged during transportation or storage
+
 oe_constraint: A binary feature indicating whether there are any OEM constraints for the product
+
 ppap_risk: A binary feature indicating whether there is any PPAP (Production Part Approval Process) risk for the product
+
 stop_auto_buy: A binary feature indicating whether the seller has stopped automatic reordering of the product
+
 rev_stop: A binary feature indicating whether the seller has stopped revenue recognition for the product
+
 went_on_backorder: The target variable, which is a binary feature indicating whether the product went on backorder or not
