@@ -39,5 +39,5 @@ The dataset contains 23 columns or features, and their brief descriptions are as
 
 * Predict Page
 <p align="center">
-  <img src="Model_image\predict.png" width='600px' border = "1px">
+  <img src="Image\Screenshot 2023-05-18 183504.png" width='600px' border = "1px">
 </p>
