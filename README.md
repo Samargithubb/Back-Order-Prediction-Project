@@ -34,7 +34,7 @@ The dataset contains 23 columns or features, and their brief descriptions are as
 * Home Page 
 
 <p align="center">
-  <img src="s" width='600px'>
+  <img src="Image\Screenshot 2023-05-18 183317.png" width='600px'>
 </p>
 
 * Predict Page
