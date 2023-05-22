@@ -41,3 +41,7 @@ The dataset contains 23 columns or features, and their brief descriptions are as
 <p align="center">
   <img src="Image\Screenshot 2023-05-18 183504.png" width='600px' border = "1px">
 </p>
+
+## Documents
+#### 🌟 Explore the architecture behind this remarkable project and delve into its creation process! 🏗️ Simply follow the links below to delve deeper! 💡✨
+[HLD][https://docs.google.com/document/d/1IdOS6Bodc1R1IZ80uP8Rw0eK-CtCnW7E/edit?usp=sharing&ouid=108516397600379304099&rtpof=true&sd=true]
