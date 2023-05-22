@@ -45,3 +45,7 @@ The dataset contains 23 columns or features, and their brief descriptions are as
 ## Documents
 #### 🌟 Explore the architecture behind this remarkable project and delve into its creation process! 🏗️ Simply follow the links below to delve deeper! 💡✨
 [High-Level Design (HLD)](https://docs.google.com/document/d/1IdOS6Bodc1R1IZ80uP8Rw0eK-CtCnW7E/edit?usp=sharing&ouid=108516397600379304099&rtpof=true&sd=true)
+[Low-Level Design (LLD)](https://docs.google.com/document/d/1-RuXn-oVv-uCk1rssiyt-D4_wp1zh66m/edit?usp=sharing&ouid=108516397600379304099&rtpof=true&sd=true)
+[Architecture](https://docs.google.com/document/d/1M1rrB7N-JI0n_46_4O40CsxLt8Gm0JjX/edit?usp=sharing&ouid=108516397600379304099&rtpof=true&sd=true)
+[Wireframe](https://docs.google.com/document/d/1ZSIHKPxN7o0KNEVwocoNqAVKO2F9oNmT/edit?usp=share_link&ouid=108516397600379304099&rtpof=true&sd=true)
+[Detail-Project-Report (DPR)](https://docs.google.com/document/d/1pYSIQNekmZ_yKuLmtpys-kczNmAJaqEf/edit?usp=sharing&ouid=108516397600379304099&rtpof=true&sd=true)
